@@ -6,8 +6,6 @@ int main()
     printf("Enter the base & power");
     scanf("%d%d",&x,&y);
     p=pow(x,y);
-    printf("Power = %d",p);
-    
-    
+    printf("Power = %d",p); 
     return 0;
 }
