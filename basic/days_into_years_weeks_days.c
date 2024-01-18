@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int days,weeks,years,months;
@@ -12,6 +11,5 @@ int main()
     weeks=days/7;
     days=days%7;
     printf("That means %d years\n %d months\n %d weeks\n %d days",years,months,weeks,days);
-   
     return 0;
 }
