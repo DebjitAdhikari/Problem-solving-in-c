@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 int main()
 {
     float num1,num2,sum,sub,multi,div;
     printf("Enter the first number\n");
     scanf("%f",&num1);
-     printf("Enter the second number\n");
+    printf("Enter the second number\n");
     scanf("%f",&num2);
     sum = num1+num2;
     printf("The sum of two number is \n%.2f",sum);
