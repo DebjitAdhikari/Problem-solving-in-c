@@ -4,7 +4,7 @@ int div(int x,int y)
     if (y%x==0)
       return x;
     else
-    div(y,y%x);
+      div(y,y%x);
 }
 int main()
 {
