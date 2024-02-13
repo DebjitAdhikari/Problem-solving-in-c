@@ -2,7 +2,7 @@
 int div(int x,int y)
 {
     if (y%x==0)
-    return x;
+      return x;
     else
     div(y,y%x);
 }
