@@ -2,7 +2,7 @@
 void odd(int a,int b)
 {
     int i=1,s=0;
-    printf("The all even numbers in the given range are\n");
+    printf("The all even numbers in the given range are:\n");
     for(i=a;i<=b;i++)
     {
         if(i%2==0)
