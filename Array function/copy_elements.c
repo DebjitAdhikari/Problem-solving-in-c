@@ -16,9 +16,7 @@ int main()
     int a[n];
     printf("Enter the elements\n");
     for(i=0;i<n;i++)
-    {
         scanf("%d",&a[i]);
-    }
     fun(a,n);
     return 0;
 }
