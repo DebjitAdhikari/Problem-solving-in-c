@@ -18,9 +18,7 @@ int main()
     int a[n];
     printf("Enter the elemnts\n");
     for(i=0;i<n;i++)
-    {
         scanf("%d",&a[i]);
-    }
     printf("Etner the position of the value to delete\n");
     scanf("%d",&pos);
     fun(n,a,pos);
