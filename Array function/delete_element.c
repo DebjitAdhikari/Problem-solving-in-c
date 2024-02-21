@@ -8,9 +8,7 @@ int fun(int n, int a[], int pos)
     n--;
     printf("The updated array\n");
     for(i=0;i<n;i++)
-    {
         printf("%d ",a[i]);
-    }
 }
 int main()
 {
