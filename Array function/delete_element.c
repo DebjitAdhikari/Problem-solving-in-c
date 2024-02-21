@@ -4,9 +4,7 @@ int fun(int n, int a[], int pos)
     int i;
     pos--;
     for(i=pos;i<n;i++)
-    {
         a[i]=a[i+1];
-    }
     n--;
     printf("The updated array\n");
     for(i=0;i<n;i++)
