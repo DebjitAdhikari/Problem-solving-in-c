@@ -29,9 +29,7 @@ int main()
     int b[n1];
     printf("Enter the elements of the second array\n");
     for(i=0;i<n1;i++)
-    {
         scanf("%d",&b[i]);
-    }
     fun(a,b,n,n1);
     return 0;
 }
