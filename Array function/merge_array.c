@@ -12,9 +12,7 @@ void fun(int a[],int b[],int n,int n1)
     }
     printf("The elements of the another array\n");
     for(i=0;i<n+n1;i++)
-    {
         printf("%d ",c[i]);
-    }
 
 }
 int main()
