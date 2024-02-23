@@ -23,9 +23,7 @@ int main()
     int a[n];
     printf("Enter the elements of the array\n");
     for(i=0;i<n;i++)
-    {
         scanf("%d",&a[i]);
-    }
     printf("Enter the size of 2nd array\n");
     scanf("%d",&n1);
     int b[n1];
