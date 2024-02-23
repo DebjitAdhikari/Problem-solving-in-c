@@ -4,9 +4,7 @@ void fun(int a[],int b[],int n,int n1)
     int j,i;
     int c[n+n1];
     for(i=0;i<n;i++)
-    {
         c[i]=a[i];
-    }
     for(j=0;j<n1;j++)
     {
         c[i]=b[j];
