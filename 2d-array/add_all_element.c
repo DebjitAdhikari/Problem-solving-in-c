@@ -2,7 +2,7 @@
 
 int main()
 {
-    int r,c,i,j,s=i0;
+    int r,c,i,j,s=0;
     printf("Enter the row and column\n");
     scanf("%d%d",&r,&c);
     int a[r][c];
@@ -25,4 +25,5 @@ int main()
     }
     printf("The sum of all array elements = %d",s);
     return 0;
+    ;
 }
