@@ -1,7 +1,7 @@
 #include <stdio.h>
 void fun(int a[],int n)
 {
-    int i,b[n],j;
+    int i,b[n];
     for(i=0;i<n;i++)
         b[i]=a[i];
     printf("Elements of the another array\n");
