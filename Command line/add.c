@@ -6,6 +6,6 @@ int main(int argc,char *argv[])
     x=atoi(argv[1]);
     y=atoi(argv[2]);
     sum=x+y;
-    printf("The sum of the numbers = %d\n",sum);
+    printf("Sum of the numbers = %d\n",sum);
     return 0;
 }
