@@ -2,7 +2,7 @@
 #include <stdlib.h>
 void printarray(int a[],int n)
 {
-    printf("The elements of the array\n");
+    printf("Elements of the array\n");
     for(int i=0;i<n;i++)
     {
         printf("%d ",a[i]);
