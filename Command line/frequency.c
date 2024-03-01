@@ -13,7 +13,6 @@ void frequency(int a[],int n)
     {
         if(a[i]>max)
             max=a[i];
-        }
     }
     int freq[max+1];
     for(i=0;i<max+1;i++)
