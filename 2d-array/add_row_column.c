@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i,j,r,c,s;
+    int i,j,r,c,s,d;
     printf("Enter the row and column\n");
     scanf("%d%d",&r,&c);
     int a[r][c];
