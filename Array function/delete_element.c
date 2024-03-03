@@ -1,7 +1,7 @@
 #include <stdio.h>
 int fun(int n, int a[], int pos)
 {
-    int i,
+    int i;
     pos--;
     for(i=pos;i<n;i++)
         a[i]=a[i+1];
