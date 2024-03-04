@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main()n
 {
     int r,c,i,j,s=0;
     printf("Enter the row and column\n");
