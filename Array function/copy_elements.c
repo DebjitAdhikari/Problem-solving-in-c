@@ -1,4 +1,4 @@
-#include <stdio.h>
+j#include <stdio.h>
 void fun(int a[],int n)
 {
     int i,b[n];
