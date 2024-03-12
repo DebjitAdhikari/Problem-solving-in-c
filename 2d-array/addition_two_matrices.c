@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 #define R 10
 #define C 10
 void enter(int a[][C],int r,int c)
