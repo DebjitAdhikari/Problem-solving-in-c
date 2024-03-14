@@ -1,4 +1,4 @@
-g#include <stdio.h>
+#include <stdio.h>
 void frequency(int *a,int n)
 {
     int max,i;
