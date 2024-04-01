@@ -1,5 +1,5 @@
 #include <stdio.h>
-k
+b
 int main()
 {
     int r,c,i,j,s=0;
