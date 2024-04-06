@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+u
 int main()
 {
     int a,b,c,s,area;
