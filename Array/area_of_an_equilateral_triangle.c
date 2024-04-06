@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main()h
+int main()
 {
     int a,b,c,s,area;
     printf("Enter the three angles of the triangle\n");
