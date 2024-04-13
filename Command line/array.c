@@ -1,4 +1,4 @@
-#include <stdio.h>
+h#include <stdio.h>
 #include <stdlib.h>
 void printarray(int a[],int n)
 {
