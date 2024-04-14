@@ -1,4 +1,4 @@
-#include <stdio.h>
+u#include <stdio.h>
 #include <stdlib.h>
 int facto(int n)
 {
