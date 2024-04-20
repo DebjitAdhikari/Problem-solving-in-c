@@ -1,41 +1,53 @@
 #include <stdio.h>
-struct marks{
-int roll;
-float phy;
-float math;
-float chem;
-char name[10];
-};
-int main()
+typedef struct student{
+ int roll;
+ char name[30];
+ float marks,chem,math,phy;
+}stype;
+void input(stype s[],int n)
 {
-    struct marks s[15];
-    int n,i;
-    printf("Enter the how many students\n");
-    scanf("%d",&n);
+    int i;
     for(i=0;i<n;i++)
     {
         printf("Enter the details of student %d\n",i+1);
-        printf("Enter the name of student\n");
+        printf("Name =\n");
         fflush(stdin);
         gets(s[i].name);
-        printf("Enter the roll\n");
+        printf("Roll =\n");
         scanf("%d",&s[i].roll);
-        printf("Enter every marks out of 100\n");
-        printf("Maths\n");
-        scanf("%f",&s[i].math);
-        printf("Physics\n");
+        printf("Marks obtained in \nPhysics =\n");
         scanf("%f",&s[i].phy);
-        printf("Chemistry\n");
+        printf("Chemistry =\n");
         scanf("%f",&s[i].chem);
+        printf("Maths =\n");
+        scanf("%f",&s[i].math);
     }
-    printf("Percentage of the student\n");
-    for ( i = 0; i < n; i++)
+}
+void percentage(stype s[],int n)
+{
+    for(int i=0;i<n;i++)
     {
-        printf("Student percentage list\n");
-        printf("Student %d = %.2f\n",i+i,(s[i].chem+s[i].math+s[i].phy)/300*100);
+      s[i].marks= (s[i].math+s[i].chem+s[i].phy)/300*100;
     }
+}
+void display(stype s[],int n)
+{
+    for(int i=0;i<n;i++)
     {
-
+        printf("Details of student %d\n",i+1);
+        printf("Name = %s\n",s[i].name);
+        printf("Roll = %d\n",s[i].roll);
+        printf("Total = %.2f\n",s[i].marks);
     }
+}
+int main()
+{
+    int n,i;
+    printf("Enter how many students\n");
+    scanf("%d",&n);
+    stype s[n];
+    input(s,n);
+    percentage(s,n);
+    display(s,n);
     return 0;
 }
