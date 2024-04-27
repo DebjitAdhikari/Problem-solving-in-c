@@ -1,5 +1,5 @@
 #include<stdio.h>
-#ibnclude<stdlib.h>
+#include<stdlib.h>
 int main(){
 	FILE *fp;
 	char filename[10], ch, str[100];
