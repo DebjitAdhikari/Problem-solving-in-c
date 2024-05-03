@@ -1,4 +1,4 @@
-h#include <stdio.h>
+#include <stdio.h>
 void fun(int a[],int n)
 {
     int i,co=0,ce=0;
